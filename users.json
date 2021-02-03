@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "status": true,
+        "name": "Leanne Graham",
+        "username": "Bret",
+        "password":"4321",
+        "email": "sincere@april.biz",
+        "address": {
+            "country": "Colombia",
+            "city": "Gwenborough"
+        },
+        "phone": "1-770-736-8031"
+    },
+    {
+        "id": 2,
+        "status": true,
+        "name": "Osman Beltran",
+        "username": "osmancadc",
+        "password":"1234",
+        "email": "osmancadc@hotmail.com",
+        "address": {
+            "country": "Colombia",
+            "city": "Gwenborough"
+        },
+        "phone": "350-205-28-11"
+    }
+]
