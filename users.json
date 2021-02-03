@@ -14,7 +14,7 @@
     },
     {
         "id": 2,
-        "status": true,
+        "status": false,
         "name": "Osman Beltran",
         "username": "osmancadc",
         "password":"1234",
