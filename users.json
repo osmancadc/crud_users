@@ -21,8 +21,21 @@
         "email": "osmancadc@hotmail.com",
         "address": {
             "country": "Colombia",
-            "city": "Gwenborough"
+            "city": "Bogotá"
         },
         "phone": "350-205-28-11"
+    },
+    {
+        "id": 3,
+        "status": false,
+        "name": "Juliana Segura",
+        "username": "jsegura",
+        "password":"2345",
+        "email": "jsegura@hotmail.com",
+        "address": {
+            "country": "Colombia",
+            "city": "Tolima"
+        },
+        "phone": "350-123-45-54"
     }
 ]

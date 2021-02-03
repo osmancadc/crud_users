@@ -16,16 +16,7 @@ exports.getUser = async (client,username,password,callback) => {
 exports.getAllUsers = async (client,callback) =>{
     await client.connect();
     result = await client.db("Users").collection("users")
-                        .find({ status:true});
+                        .find({ status:true}).toArray()
     await client.close();   
     callback(result)
 }
-// try {
-//     databasesList = await client.db().admin().listDatabases();
-//     console.log("Databases:");
-//     databasesList.databases.forEach(db => console.log(` - ${db.name}`));
-// } catch (e) {
-//     console.error(e);
-// } finally {
-//     await client.close();
-// }

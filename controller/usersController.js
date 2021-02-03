@@ -12,8 +12,8 @@ router.get("/", async (req, res) => {
 
         let client = databaseController.getClient()
 
-        databaseController.getAllUsers(client, result => {
-            res.send(result)
+        databaseController.getAllUsers(client,async result => {
+            res.status(200).send(result)
         })
     } catch (err) {
         res.sendStatus(403)
