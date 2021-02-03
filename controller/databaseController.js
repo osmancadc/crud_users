@@ -1,7 +1,7 @@
 const {
     MongoClient
 } = require('mongodb');
-const uri = "mongodb://127.0.0.1:27017/?gssapiServiceName=mongodb";
+const uri = "mongodb+srv://osmancadc:4321@cluster0.ge4gy.mongodb.net/Users?retryWrites=true&w=majority";
 
 exports.getClient = ()=>{ return new MongoClient(uri)}
 

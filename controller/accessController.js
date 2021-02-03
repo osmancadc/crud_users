@@ -7,6 +7,7 @@ const config = require('../config/config.js')
 router.use(bodyParser.json())
 
 router.post("/", (req, res) => {
+    console.log("Recibio solicitud de acceso")
     const {
         username,
         password
